@@ -1,0 +1,17 @@
+{
+  "name": "vision-edge-website",
+  "version": "1.0.0",
+  "description": "Vision Edge IT Services Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["website", "it-services", "vision-edge"],
+  "author": "Vision Edge",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

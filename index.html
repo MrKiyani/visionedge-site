@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Edge - Premium IT Services & Solutions</title>
+    <meta name="description" content="Vision Edge offers comprehensive IT services including web development, app development, cloud services, DevOps, and IT consulting for businesses of all sizes.">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/testimonials.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="/" class="nav__logo-link">
+                    <img src="images/logo.png" alt="Vision Edge Logo" class="nav__logo-img">
+                    <span class="nav__logo-text">Vision Edge</span>
+                </a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">
+                            Transform Your Business with 
+                            <span class="hero__title-gradient">Vision Edge</span>
+                        </h1>
+                        <p class="hero__description">
+                            We deliver cutting-edge IT solutions that drive innovation, enhance efficiency, 
+                            and accelerate your digital transformation journey.
+                        </p>
+                        <div class="hero__buttons">
+                            <a href="#contact" class="btn btn--primary">Get Started</a>
+                            <a href="#services" class="btn btn--secondary">Our Services</a>
+                        </div>
+                        <div class="hero__stats">
+                            <div class="hero__stat">
+                                <span class="hero__stat-number">500+</span>
+                                <span class="hero__stat-text">Projects Completed</span>
+                            </div>
+                            <div class="hero__stat">
+                                <span class="hero__stat-number">98%</span>
+                                <span class="hero__stat-text">Client Satisfaction</span>
+                            </div>
+                            <div class="hero__stat">
+                                <span class="hero__stat-number">24/7</span>
+                                <span class="hero__stat-text">Support Available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__visual">
+                        <div class="hero__image-container">
+                            <div class="hero__floating-card hero__floating-card--1">
+                                <i class="fas fa-code"></i>
+                                <span>Web Development</span>
+                            </div>
+                            <div class="hero__floating-card hero__floating-card--2">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>App Development</span>
+                            </div>
+                            <div class="hero__floating-card hero__floating-card--3">
+                                <i class="fas fa-cloud"></i>
+                                <span>Cloud Services</span>
+                            </div>
+                            <div class="hero__floating-card hero__floating-card--4">
+                                <i class="fas fa-cogs"></i>
+                                <span>DevOps</span>
+                            </div>
+                            <div class="hero__floating-card hero__floating-card--5">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Security</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Services</h2>
+                    <p class="section__description">
+                        Comprehensive IT solutions tailored to meet your business needs
+                    </p>
+                </div>
+                <div class="services__grid">
+                    <div class="service__card" data-category="Web" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service__icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="service__title">Website Design</h3>
+                        <p class="service__description">
+                            Create stunning, user-friendly websites that captivate your audience and drive conversions.
+                        </p>
+                        <ul class="service__features">
+                            <li>Responsive Design</li>
+                            <li>UI/UX Optimization</li>
+                            <li>Brand Integration</li>
+                        </ul>
+                    </div>
+
+                    <div class="service__card" data-category="Web" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service__icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="service__title">Web Development</h3>
+                        <p class="service__description">
+                            Build robust, scalable web applications using cutting-edge technologies and best practices.
+                        </p>
+                        <ul class="service__features">
+                            <li>Full-Stack Development</li>
+                            <li>Modern Frameworks</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                    </div>
+
+                    <div class="service__card" data-category="Mobile" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service__icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service__title">App Development</h3>
+                        <p class="service__description">
+                            Develop native and cross-platform mobile applications that deliver exceptional user experiences.
+                        </p>
+                        <ul class="service__features">
+                            <li>iOS & Android</li>
+                            <li>Cross-Platform Solutions</li>
+                            <li>App Store Optimization</li>
+                        </ul>
+                    </div>
+
+                    <div class="service__card" data-category="Software" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service__icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service__title">Software Development</h3>
+                        <p class="service__description">
+                            Custom software solutions designed to streamline your business processes and boost productivity.
+                        </p>
+                        <ul class="service__features">
+                            <li>Custom Solutions</li>
+                            <li>Enterprise Software</li>
+                            <li>API Integration</li>
+                        </ul>
+                    </div>
+
+                    <div class="service__card" data-category="Cloud" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service__icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3 class="service__title">Cloud Services</h3>
+                        <p class="service__description">
+                            Migrate to the cloud and leverage scalable infrastructure for enhanced performance and security.
+                        </p>
+                        <ul class="service__features">
+                            <li>Cloud Migration</li>
+                            <li>Infrastructure Management</li>
+                            <li>Security & Compliance</li>
+                        </ul>
+                    </div>
+
+                    <div class="service__card" data-category="DevOps" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service__icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="service__title">DevOps Services</h3>
+                        <p class="service__description">
+                            Streamline your development pipeline with automated deployment and continuous integration.
+                        </p>
+                        <ul class="service__features">
+                            <li>CI/CD Pipelines</li>
+                            <li>Infrastructure as Code</li>
+                            <li>Monitoring & Analytics</li>
+                        </ul>
+                    </div>
+
+                    <div class="service__card" data-category="Support" data-aos="fade-up" data-aos-delay="700">
+                        <div class="service__icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 class="service__title">IT Consulting</h3>
+                        <p class="service__description">
+                            Expert guidance and 24/7 technical support to keep your systems running smoothly.
+                        </p>
+                        <ul class="service__features">
+                            <li>Strategic Planning</li>
+                            <li>24/7 Support</li>
+                            <li>System Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Portfolio</h2>
+                    <p class="section__description">
+                        Showcasing our latest projects and success stories
+                    </p>
+                </div>
+                <div class="portfolio__grid">
+                    <div class="portfolio__item" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="portfolio__image">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="E-commerce Platform">
+                            <div class="portfolio__overlay">
+                                <h4>E-commerce Platform</h4>
+                                <p>Full-stack web application with payment integration</p>
+                                <div class="portfolio__tags">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="portfolio__image">
+                            <img src="https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Social Media App">
+                            <div class="portfolio__overlay">
+                                <h4>Social Media App</h4>
+                                <p>Cross-platform mobile application with real-time features</p>
+                                <div class="portfolio__tags">
+                                    <span>React Native</span>
+                                    <span>Firebase</span>
+                                    <span>WebSocket</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="portfolio__image">
+                            <img src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cloud Infrastructure">
+                            <div class="portfolio__overlay">
+                                <h4>Cloud Infrastructure</h4>
+                                <p>Scalable cloud solution for enterprise client</p>
+                                <div class="portfolio__tags">
+                                    <span>AWS</span>
+                                    <span>Docker</span>
+                                    <span>Kubernetes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="portfolio__image">
+                            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Analytics Dashboard">
+                            <div class="portfolio__overlay">
+                                <h4>Analytics Dashboard</h4>
+                                <p>Real-time data visualization and reporting system</p>
+                                <div class="portfolio__tags">
+                                    <span>Vue.js</span>
+                                    <span>D3.js</span>
+                                    <span>Python</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section" id="testimonials">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">What Our Clients Say</h2>
+                    <p class="section__description">
+                        Real feedback from businesses we've helped transform
+                    </p>
+                </div>
+                <div class="testimonials__grid">
+                    <div class="testimonial__card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial__content">
+                            <div class="testimonial__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial__text">
+                                "Vision Edge transformed our outdated system into a modern, efficient platform. 
+                                Their expertise and dedication exceeded our expectations."
+                            </p>
+                            <div class="testimonial__author">
+                                <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Sarah Johnson">
+                                <div class="testimonial__info">
+                                    <h4>Sarah Johnson</h4>
+                                    <span>CEO, TechStart Inc.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial__content">
+                            <div class="testimonial__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial__text">
+                                "The mobile app they developed for us has been a game-changer. 
+                                User engagement increased by 300% within the first month."
+                            </p>
+                            <div class="testimonial__author">
+                                <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Michael Chen">
+                                <div class="testimonial__info">
+                                    <h4>Michael Chen</h4>
+                                    <span>Founder, RetailPro</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="testimonial__content">
+                            <div class="testimonial__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial__text">
+                                "Their cloud migration service saved us 40% on infrastructure costs 
+                                while improving our system performance significantly."
+                            </p>
+                            <div class="testimonial__author">
+                                <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Emily Rodriguez">
+                                <div class="testimonial__info">
+                                    <h4>Emily Rodriguez</h4>
+                                    <span>CTO, DataFlow Solutions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="blog section" id="blog">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Latest Insights</h2>
+                    <p class="section__description">
+                        Stay updated with the latest trends and best practices in technology
+                    </p>
+                </div>
+                <div class="blog__grid">
+                    <article class="blog__card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="blog__image">
+                            <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AI in Business">
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__meta">
+                                <span class="blog__date">March 15, 2024</span>
+                                <span class="blog__category">AI & Machine Learning</span>
+                            </div>
+                            <h3 class="blog__title">How AI is Transforming Modern Business Operations</h3>
+                            <p class="blog__excerpt">
+                                Discover how artificial intelligence is revolutionizing business processes 
+                                and creating new opportunities for growth and efficiency.
+                            </p>
+                            <a href="#" class="blog__link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog__card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="blog__image">
+                            <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cloud Security">
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__meta">
+                                <span class="blog__date">March 10, 2024</span>
+                                <span class="blog__category">Cloud Computing</span>
+                            </div>
+                            <h3 class="blog__title">Best Practices for Cloud Security in 2024</h3>
+                            <p class="blog__excerpt">
+                                Learn essential security measures to protect your cloud infrastructure 
+                                and maintain compliance with industry standards.
+                            </p>
+                            <a href="#" class="blog__link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog__card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="blog__image">
+                            <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800" alt="DevOps Trends">
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__meta">
+                                <span class="blog__date">March 5, 2024</span>
+                                <span class="blog__category">DevOps</span>
+                            </div>
+                            <h3 class="blog__title">The Future of DevOps: Trends to Watch</h3>
+                            <p class="blog__excerpt">
+                                Explore emerging DevOps trends and technologies that are shaping 
+                                the future of software development and deployment.
+                            </p>
+                            <a href="#" class="blog__link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Estimate Project</h2>
+                    <p class="section__description">
+                        Ready to transform your business? Let's discuss your project requirements
+                    </p>
+                </div>
+                <div class="contact__container">
+                    <div class="contact__info" data-aos="fade-right">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact__details">
+                                <h4>Our Location</h4>
+                                <p>Muhafiz Town<br>Gujranwala, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact__details">
+                                <h4>Working Hours</h4>
+                                <p>Mon - Fri, 9AM - 6PM PKT</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact__details">
+                                <h4>Email Us</h4>
+                                <p>info@visionedge.tech<br>support@visionedge.tech</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form" data-aos="fade-left" id="contactForm">
+                        <div class="form__group">
+                            <input type="text" class="form__input" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="form__input" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__input" name="company" placeholder="Company Name">
+                        </div>
+                        <div class="form__group">
+                            <select class="form__input" name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="web-design">Website Design</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="app-development">App Development</option>
+                                <option value="software-development">Software Development</option>
+                                <option value="cloud-services">Cloud Services</option>
+                                <option value="devops">DevOps Services</option>
+                                <option value="consulting">IT Consulting</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <textarea class="form__input form__textarea" name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__brand">
+                        <img src="images/logo.png" alt="Vision Edge Logo" class="footer__logo">
+                        <h3 class="footer__title">Vision Edge</h3>
+                    </div>
+                    <p class="footer__description">
+                        Transforming businesses through innovative IT solutions and cutting-edge technology.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="footer__social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Services</h4>
+                    <ul class="footer__list">
+                        <li><a href="#services" class="footer__link">Website Design</a></li>
+                        <li><a href="#services" class="footer__link">Web Development</a></li>
+                        <li><a href="#services" class="footer__link">App Development</a></li>
+                        <li><a href="#services" class="footer__link">Cloud Services</a></li>
+                        <li><a href="#services" class="footer__link">DevOps Services</a></li>
+                        <li><a href="#services" class="footer__link">IT Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Company</h4>
+                    <ul class="footer__list">
+                        <li><a href="#home" class="footer__link">About Us</a></li>
+                        <li><a href="#portfolio" class="footer__link">Our Team</a></li>
+                        <li><a href="#blog" class="footer__link">Careers</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                        <li><a href="#portfolio" class="footer__link">Case Studies</a></li>
+                        <li><a href="#contact" class="footer__link">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tech Trust Section -->
+            <div class="footer__tech-trust">
+                <div class="footer__tech-content">
+                    <h4 class="footer__tech-title">Powered by</h4>
+                    <div class="footer__tech-logos">
+                        <div class="tech-logo" title="React">
+                            <i class="fab fa-react" style="color: #61DAFB;"></i>
+                        </div>
+                        <div class="tech-logo" title="Node.js">
+                            <i class="fab fa-node-js" style="color: #339933;"></i>
+                        </div>
+                        <div class="tech-logo" title="Python">
+                            <i class="fab fa-python" style="color: #3776AB;"></i>
+                        </div>
+                        <div class="tech-logo" title="Docker">
+                            <i class="fab fa-docker" style="color: #2496ED;"></i>
+                        </div>
+                        <div class="tech-logo" title="GitHub">
+                            <i class="fab fa-github" style="color: #181717;"></i>
+                        </div>
+                        <div class="tech-logo" title="GitLab">
+                            <i class="fab fa-gitlab" style="color: #FC6D26;"></i>
+                        </div>
+                        <div class="tech-logo" title="Amazon Web Services">
+                            <i class="fab fa-aws" style="color: #FF9900;"></i>
+                        </div>
+                        <div class="tech-logo" title="Digital Ocean">
+                            <i class="fab fa-digital-ocean" style="color: #0080FF;"></i>
+                        </div>
+                        <div class="tech-logo" title="Figma">
+                            <i class="fab fa-figma" style="color: #F24E1E;"></i>
+                        </div>
+                        <div class="tech-logo" title="Linux">
+                            <i class="fab fa-linux" style="color: #FCC624;"></i>
+                        </div>
+                        <div class="tech-logo" title="JavaScript">
+                            <i class="fab fa-js-square" style="color: #F7DF1E;"></i>
+                        </div>
+                        <div class="tech-logo" title="HTML5">
+                            <i class="fab fa-html5" style="color: #E34F26;"></i>
+                        </div>
+                        <div class="tech-logo" title="CSS3">
+                            <i class="fab fa-css3-alt" style="color: #1572B6;"></i>
+                        </div>
+                        <div class="tech-logo" title="WordPress">
+                            <i class="fab fa-wordpress" style="color: #21759B;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2024 Vision Edge. All rights reserved.</p>
+                <div class="footer__legal">
+                    <a href="privacy-policy.html" class="footer__link">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="footer__link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <div class="back-to-top__icon">
+            <i class="fas fa-rocket"></i>
+        </div>
+        <div class="back-to-top__trail"></div>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
